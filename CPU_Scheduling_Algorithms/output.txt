@@ -1,0 +1,183 @@
+----------------------OUTPUT_FOR_ALL_FILES-----------------------
+
+---------------------first_come_first_served.c-------------------
+Enter Number of Processes: 4
+Enter Burst Time for P1: 23   
+Enter Burst Time for P2: 45
+Enter Burst Time for P3: 13
+Enter Burst Time for P4: 45
+
+Process BT      WT      TAT
+P1      23      0       23
+P2      45      23      68
+P3      13      68      81
+P4      45      81      126
+
+Average Waiting Time = 43.00
+Average Turnaround Time = 74.50
+-----------------------------------------------------------------
+
+
+---------------------first_come_first_served.sh------------------
+Enter Number of Processes
+4
+Enter Burst Time for P1
+23
+Enter Burst Time for P2
+45
+Enter Burst Time for P3
+13
+Enter Burst Time for P4
+45
+
+Process BT      WT      TAT
+P1      23      0       23
+P2      45      23      68
+P3      13      68      81
+P4      45      81      126
+
+Average Waiting Time = 43.00
+Average Turnaround Time = 74.50
+-----------------------------------------------------------------
+
+
+---------------------shortest_job_first.c------------------------
+Enter Number of Processes: 4
+Enter Burst Time for P1: 34
+Enter Burst Time for P2: 12
+Enter Burst Time for P3: 67
+Enter Burst Time for P4: 43
+
+Process BT      WT      TAT
+P1      12      0       12
+P2      34      12      46
+P3      43      46      89
+P4      67      89      156
+
+Average Waiting Time = 36.75
+Average Turnaround Time = 75.75
+-----------------------------------------------------------------
+
+
+---------------------shortest_job_first.sh-----------------------
+Enter Number of Processes
+4
+Enter Burst Time for P1
+34
+Enter Burst Time for P2
+12
+Enter Burst Time for P3
+67
+Enter Burst Time for P4
+43
+
+Process BT      WT      TAT
+P1      12      0       12
+P2      34      12      46
+P3      43      46      89
+P4      67      89      156
+
+Average Waiting Time = 36.75
+Average Turnaround Time = 75.75
+-----------------------------------------------------------------
+
+
+---------------------priority_scheduling.c-----------------------
+Enter Number of Processes: 4
+
+Enter Burst Time for P1: 34
+Enter Priority for P1: 7
+
+Enter Burst Time for P2: 78
+Enter Priority for P2: 5
+
+Enter Burst Time for P3: 56
+Enter Priority for P3: 9
+
+Enter Burst Time for P4: 21
+Enter Priority for P4: 4
+
+Process Priority        BT      WT      TAT
+P1      4               21      0       21
+P2      5               78      21      99
+P3      7               34      99      133
+P4      9               56      133     189
+
+Average Waiting Time = 63.25
+Average Turnaround Time = 110.50
+-----------------------------------------------------------------
+
+
+---------------------priority_scheduling.sh----------------------
+Enter Number of Processes
+4
+Enter Burst Time for P1
+34
+Enter Priority for P1
+7
+Enter Burst Time for P2
+78
+Enter Priority for P2
+5
+Enter Burst Time for P3
+56
+Enter Priority for P3
+9
+Enter Burst Time for P4
+21
+Enter Priority for P4
+4
+
+Process Priority        BT      WT      TAT
+P1      4               21      0       21
+P2      5               78      21      99
+P3      7               34      99      133
+P4      9               56      133     189
+
+Average Waiting Time = 63.25
+Average Turnaround Time = 110.50
+-----------------------------------------------------------------
+
+
+------------------round_robin_scheduling.c-----------------------
+Enter Number of Processes: 4
+Enter Burst Time for P1: 23
+Enter Burst Time for P2: 45
+Enter Burst Time for P3: 67
+Enter Burst Time for P4: 89
+Enter Time Quantum: 5
+
+Process BT      WT      TAT
+P1      23      60      83
+P2      45      103     148
+P3      67      133     200
+P4      89      135     224
+
+Average Waiting Time = 107.75
+Average Turnaround Time = 163.75
+-----------------------------------------------------------------
+
+
+------------------round_robin_scheduling.sh----------------------
+Enter Number of Processes
+4
+Enter Burst Time for P1
+23
+Enter Burst Time for P2
+45
+Enter Burst Time for P3
+67
+Enter Burst Time for P4
+89
+Enter Time Quantum
+5
+
+Process BT      WT      TAT
+P1      23      60      83
+P2      45      103     148
+P3      67      133     200
+P4      89      135     224
+
+Average Waiting Time = 107.75
+Average Turnaround Time = 163.75
+-----------------------------------------------------------------
