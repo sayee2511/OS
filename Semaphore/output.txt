@@ -1,0 +1,14 @@
+-------------OUTPUT FOR ALL FILES--------------
+
+----------------semaphore.c--------------------
+Parent Process Entering Critical Section
+Parent Process Leaving Critical Section
+Child Process Entering Critical Section
+Child Process Leaving Critical Section
+-----------------------------------------------                                        
+
+
+----------------semaphore.sh-------------------
+Entering Critical Section
+Leaving Critical Section
+-----------------------------------------------
