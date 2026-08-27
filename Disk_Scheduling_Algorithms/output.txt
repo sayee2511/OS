@@ -1,0 +1,62 @@
+-------------OUTPUT FOR ALL FILES----------------------
+
+---------------------fcfs_disk.c-----------------------
+Enter Number of Requests: 8
+Enter Request Queue:
+98 183 37 122 14 124 65 67
+Enter Initial Head Position: 53
+Total Head Movement = 640         
+-------------------------------------------------------
+
+
+------------------fcfs_disk.sh------------------------
+Request Queue : 98 183 37 122 14 124 65 67
+Initial Head Position : 53
+Total Head Movement = 640
+-------------------------------------------------------
+
+
+------------------sstf_disk.c--------------------------
+Enter Number of Requests: 8
+Enter Request Queue:
+98 183 37 122 14 124 65 67
+Enter Initial Head Position: 53
+Total Head Movement = 236
+-------------------------------------------------------
+
+
+------------------sstf_disk.sh-------------------------
+SSTF Disk Scheduling Demonstration
+Request Queue : 98 183 37 122 14 124 65 67
+Initial Head Position : 53
+Total Head Movement calculated using SSTF.
+-------------------------------------------------------
+
+
+---------------------scan_disk.c-----------------------
+SCAN Disk Scheduling
+Initial Head Position : 53
+Head moves towards higher cylinders,
+then reverses direction.
+-------------------------------------------------------
+
+
+---------------------scan_disk.sh----------------------
+SCAN Disk Scheduling
+Head moves in one direction and then reverses.
+-------------------------------------------------------
+
+
+---------------------cscan_disk.c----------------------
+C-SCAN Disk Scheduling
+Initial Head Position : 53
+Head moves in one direction.
+After reaching the end, it returns to the beginning.
+-------------------------------------------------------
+
+
+---------------------cscan_disk.sh---------------------
+C-SCAN Disk Scheduling
+Head moves in one direction only.
+After reaching the end, it returns to the beginning.
+-------------------------------------------------------
