@@ -1,0 +1,48 @@
+-------------OUTPUT FOR ALL FILES ------------------------
+
+
+--------------fork_getpid_exit_wait.c---------------------
+CHILD PROCESS
+Child PID : 45221
+Parent PID : 45220
+
+PARENT PROCESS
+Parent PID : 45220
+Parent's Parent PID : 39535
+----------------------------------------------------------
+
+
+--------------fork_getpid_exit_wait.sh--------------------
+PARENT PROCESS
+Parent PID : 53786
+CHILD PROCESS
+Child PID : 53787
+Parent PID : 53786
+Child Process Completed
+----------------------------------------------------------
+
+
+--------------wait.c--------------------------------------
+Child Process Running
+Child Process Completed
+Parent Resumes Execution
+----------------------------------------------------------
+
+
+--------------wait.sh-------------------------------------
+Child Process Running
+Child Process Completed
+Parent Resumes Execution
+----------------------------------------------------------
+
+
+--------------close.c-------------------------------------
+File Opened Successfully
+File Closed Successfully
+----------------------------------------------------------
+
+
+--------------close.sh------------------------------------
+File Opened Successfully
+File Closed Successfully
+----------------------------------------------------------

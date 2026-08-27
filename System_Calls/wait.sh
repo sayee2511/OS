@@ -1,0 +1,8 @@
+#!/bin/bash
+(
+    echo "Child Process Running"
+    sleep 5
+    echo "Child Process Completed"
+) &
+wait
+echo "Parent Resumes Execution"
