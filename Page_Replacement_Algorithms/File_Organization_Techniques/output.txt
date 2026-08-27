@@ -1,0 +1,59 @@
+-------------OUTPUT FOR ALL FILES----------------------
+
+--------------------sequential.c-----------------------
+Enter Register Number: 101
+Enter Name: Arun
+
+Record Details
+Register Number : 101
+Name : Arun                 
+-------------------------------------------------------
+
+
+-------------------sequential.sh-----------------------
+Enter Register Number:
+101
+Enter Name:
+Arun
+Contents of File
+101 Arun
+-------------------------------------------------------
+
+
+--------------------random.c---------------------------
+Enter Register Number: 102
+Enter Name: Kumar
+
+Record Found
+Reg No : 102
+Name : Kumar
+-------------------------------------------------------
+
+
+------------------random.sh----------------------------
+Enter Record:
+102 Kumar
+Random Access Record
+102 Kumar
+-------------------------------------------------------
+
+
+--------------------indexed.c--------------------------
+Enter 3 Student Records
+101 Arun
+102 Kumar
+103 Ravi
+Enter Register Number to Search: 102
+
+Record Found
+Reg No : 102
+Name : Kumar
+-------------------------------------------------------
+
+
+----------------------indexed.sh-----------------------
+Enter Student Records
+Enter Register Number to Search:
+102
+102 Kumar
+--------------------------------------------------------

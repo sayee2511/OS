@@ -1,0 +1,54 @@
+-------------OUTPUT FOR ALL FILES----------------------
+
+-----------------------fifo.c--------------------------
+Enter Number of Pages: 13
+Enter Reference String:
+7 0 1 2 0 3 0 4 2 3 0 3 2
+Enter Number of Frames: 3
+Total Page Faults = 10                 
+-------------------------------------------------------
+
+
+----------------------fifo.sh--------------------------
+FIFO Page Replacement Demonstration
+Reference String: 7 0 1 2 0 3 0 4 2 3 0 3 2
+Frames: 3
+FIFO Algorithm Executed
+Total Page Faults = 10
+-------------------------------------------------------
+
+
+-----------------------lru.c---------------------------
+Enter Number of Pages: 13
+Enter Reference String:
+7 0 1 2 0 3 0 4 2 3 0 3 2
+Enter Number of Frames: 3
+Total Page Faults = 9
+-------------------------------------------------------
+
+
+---------------------lru.sh----------------------------
+LRU Page Replacement Demonstration
+Reference String: 7 0 1 2 0 3 0 4 2 3 0 3 2
+Frames: 3
+LRU Algorithm Executed
+Total Page Faults = 9
+-------------------------------------------------------
+
+
+--------------------optimal.c--------------------------
+Enter Number of Pages: 13
+Enter Reference String:
+7 0 1 2 0 3 0 4 2 3 0 3 2
+Enter Number of Frames: 3
+Total Page Faults = 7
+-------------------------------------------------------
+
+
+----------------------optimal.sh-----------------------
+Optimal Page Replacement Demonstration
+Reference String: 7 0 1 2 0 3 0 4 2 3 0 3 2
+Frames: 3
+Optimal Algorithm Executed
+Total Page Faults = 7
+--------------------------------------------------------
