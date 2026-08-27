@@ -1,0 +1,76 @@
+-------------OUTPUT FOR ALL FILES----------------------
+
+---------------sequential_allocation.c-----------------
+Enter Starting Block: 10
+Enter File Length (Number of Blocks): 5
+
+Allocated Blocks:
+10 11 12 13 14               
+-------------------------------------------------------
+
+
+---------------sequential_allocation.sh----------------
+Enter Starting Block:
+10
+Enter File Length:
+5
+Allocated Blocks:
+10 11 12 13 14 
+-------------------------------------------------------
+
+
+---------------indexed_allocation.c--------------------
+Enter Index Block: 5
+Enter Number of Blocks: 4
+Enter Block Numbers:
+10
+15
+20
+25
+
+Index Block : 5
+Allocated Blocks : 10 15 20 25 
+-------------------------------------------------------
+
+
+---------------indexed_allocation.sh-------------------
+Enter Index Block:
+5
+Enter Number of Blocks:
+4
+Enter Block Numbers:
+10
+15
+20
+25
+Index Block : 5
+Allocated Blocks : 10 15 20 25 
+-------------------------------------------------------
+
+
+----------------linked_allocation.c--------------------
+Enter Number of Blocks: 5
+Enter Block Numbers:
+10
+25
+7
+18
+30
+
+Linked Allocation:
+10 --> 25 --> 7 --> 18 --> 30 --> NULL
+-------------------------------------------------------
+
+
+----------------linked_allocation.sh-------------------
+Enter Number of Blocks:
+5
+Enter Block Numbers:
+10
+25
+7
+18
+30
+Linked Allocation:
+10 --> 25 --> 7 --> 18 --> 30 --> NULL
+-------------------------------------------------------
