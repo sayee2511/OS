@@ -1,0 +1,140 @@
+-------------OUTPUT FOR ALL FILES----------------------
+
+--------------------first_fit.c------------------------
+Enter Number of Blocks: 5
+Enter Number of Processes: 4
+Enter Block Sizes:
+100
+500
+200
+300
+600
+Enter Process Sizes:
+212
+417
+112
+426
+
+Process No      Process Size    Block No
+1               212             2
+2               417             5
+3               112             2
+4               426             Not Allocated                  
+-------------------------------------------------------
+
+
+--------------------first_fit.sh-----------------------
+First Fit Memory Allocation
+Enter Number of Blocks:
+5
+Enter Block Sizes:
+100
+500
+200
+300
+600
+Enter Number of Processes:
+4
+Enter Process Sizes:
+212
+417
+112
+426
+
+Process Size    Block
+P1      212     B2
+P2      417     B5
+P3      112     B2
+P4      426     Not Allocated
+--------------------------------------------------------
+
+
+---------------------best_fit.c------------------------
+Enter Number of Blocks: 5
+Enter Number of Processes: 4
+Enter Block Sizes:
+100
+500
+200
+300
+600
+Enter Process Sizes:
+212
+417
+112
+426
+
+Process No      Process Size    Block No
+1               212             4
+2               417             2
+3               112             3
+4               426             5
+-------------------------------------------------------
+
+
+-------------------best_fit.sh-----------------------
+Best Fit Memory Allocation
+Enter Number of Blocks:
+5
+Enter Block Sizes:
+100
+500
+200
+300
+600
+Enter Number of Processes:
+4
+Enter Process Sizes:
+212
+417
+112
+426
+
+Process Size    Block
+P1      212     B4
+P2      417     B2
+P3      112     B3
+P4      426     B5
+--------------------------------------------------------
+
+
+--------------------worst_fit.c------------------------
+Enter Number of Blocks: 5
+Enter Number of Processes: 4
+Enter Block Sizes:
+100 500 200 300 600
+Enter Process Sizes:
+212 417 112 426
+
+Process No      Process Size    Block No
+1               212             5
+2               417             2
+3               112             5
+4               426             Not Allocated
+-------------------------------------------------------
+
+
+--------------------worst_fit.sh-----------------------
+Worst Fit Memory Allocation
+Enter Number of Blocks:
+5
+Enter Block Sizes:
+100
+500
+200
+300
+600
+Enter Number of Processes:
+4
+Enter Process Sizes:
+212
+417
+112
+426
+
+Process Size    Block
+P1      212     B5
+P2      417     B2
+P3      112     B5
+P4      426     Not Allocated
+--------------------------------------------------------
