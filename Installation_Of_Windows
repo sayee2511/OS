@@ -1,0 +1,91 @@
+PROCEDURE:
+
+Step 1: Create Bootable Installation Media
+1. Download the Windows ISO image from the Microsoft website.
+2. Insert a USB drive (minimum 8 GB capacity).
+3. Use a bootable media creation tool to create a bootable USB.
+
+Step 2: Configure Boot Settings
+1. Insert the bootable USB into the target computer.
+2. Restart the system and enter BIOS/UEFI setup.
+3. Set the USB drive as the first boot device.
+4. Save the settings and restart.
+
+Step 3: Install Windows
+1. Boot from the USB drive.
+2. Select language, time, and keyboard settings.
+3. Click Install Now.
+4. Enter the product key if available.
+5. Accept the license agreement.
+6. Select Custom: Install Windows Only.
+7. Create or select a partition for installation.
+8. Click Next to begin installation.
+
+Step 4: Initial Configuration
+1. Wait for installation to complete.
+2. Configure region and keyboard settings.
+3. Create a user account and password.
+4. Complete privacy and network settings.
+
+Step 5: Verification
+1. Log in to Windows.
+2. Verify the installation using system information commands.
+3. Check the operating system version and hardware details.
+
+
+COMMANDS USED FOR VERIFICATION & OUTPUT:
+
+1. Display Windows Version
+C:\> winver
+Output:
+Windows Version Dialog displayed showing Windows 11 / Windows 10 Version 22H2 (OS Build 22621.1702)
+
+2. Display System Information
+C:\> systeminfo
+Output:
+Host Name:                 DESKTOP-PC101
+OS Name:                   Microsoft Windows 11 Pro
+OS Version:                10.0.22621 N/A Build 22621
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Student
+System Manufacturer:       Dell Inc.
+System Model:              OptiPlex 7090
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+BIOS Version:              Dell Inc. 1.8.0
+Total Physical Memory:     16,248 MB
+Available Physical Memory: 11,432 MB
+
+3. Display Computer Name
+C:\> hostname
+Output:
+DESKTOP-PC101
+
+4. Display Disk Information
+C:\> diskpart
+DISKPART> list disk
+Output:
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+  Disk 0    Online          512 GB  1024 KB        *
+DISKPART> exit
+
+5. Check Windows Activation Status
+C:\> slmgr /xpr
+Output:
+Windows(R), Professional edition:
+The machine is permanently activated.
+
+6. Display IP Configuration
+C:\> ipconfig
+Output:
+Windows IP Configuration
+
+Ethernet adapter Ethernet:
+   Connection-specific DNS Suffix  . : localdomain
+   Link-local IPv6 Address . . . . . : fe80::4c9b:2881:9d6a:112f%12
+   IPv4 Address. . . . . . . . . . . : 192.168.1.45
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
