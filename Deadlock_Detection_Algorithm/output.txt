@@ -1,0 +1,33 @@
+-------------OUTPUT FOR ALL FILES----------------------
+
+------------ deadlock_detection_algorithm.c------------
+Enter Number of Processes: 3
+Enter Number of Resource Types: 2
+
+Enter Allocation Matrix:
+1 0
+0 1
+1 1
+
+Enter Request Matrix:
+0 1
+1 0
+1 1
+
+Enter Available Resources:
+1 1
+
+Deadlocked Processes:
+No Deadlock Detected
+ 
+-------------------------------------------------------
+
+
+------------ deadlock_detection_algorithm.sh------------
+Enter number of processes:
+3
+Enter deadlocked process numbers (if any):
+2
+Deadlocked Processes:
+2
+--------------------------------------------------------
