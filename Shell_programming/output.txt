@@ -1,0 +1,65 @@
+--------------OUTPUT FOR ALL FILES------------------------
+
+---------------------greatest.sh--------------------------
+ENTER THREE NUMBERS
+23 45 67
+67 is greater
+----------------------------------------------------------
+
+
+---------------------factorial.sh-------------------------
+ENTER THE NUMBER:
+5
+FACTORIAL OF THE GIVEN NUMBER IS 120
+----------------------------------------------------------
+
+
+---------------------oddsum.sh----------------------------
+ENTER THE RANGE:
+16
+SUM = 64
+----------------------------------------------------------
+
+
+---------------------fibonacci.sh-------------------------
+ENTER THE LIMIT:
+8
+0
+1
+1
+2
+3
+5
+8
+13
+-----------------------------------------------------------
+
+
+---------------------calculator.sh-------------------------
+ENTER THE VALUE OF A:
+45
+ENTER THE VALUE OF B:
+9
+ENTER THE OPTION TO PERFORM
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+1
+Result = 54
+------------------------------------------------------------
+
+
+---------------------largestdigit.sh------------------------
+ENTER THE NUMBER
+45
+THE LARGEST DIGIT OF THE NUMBER: 5
+------------------------------------------------------------
+
+
+----------------------palindrome.sh-------------------------
+ENTER THE STRING TO CHECK PALINDROME
+malayalam
+malayalam is a palindrome
+------------------------------------------------------------
+
