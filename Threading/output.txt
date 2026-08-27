@@ -1,0 +1,31 @@
+
+-------------OUTPUT FOR ALL FILES----------------------
+
+--------------------threading.c------------------------
+Thread Executing : 1
+Thread Executing : 1
+Thread Executing : 2
+Thread Executing : 2
+Thread Executing : 3
+Thread Executing : 3
+Thread Executing : 4
+Thread Executing : 4
+Thread Executing : 5
+Thread Executing : 5
+All Threads Completed                      
+-------------------------------------------------------
+
+
+--------------------threading.sh-----------------------
+Thread 2 : 1
+Thread 1 : 1
+Thread 2 : 2
+Thread 1 : 2
+Thread 1 : 3
+Thread 2 : 3
+Thread 1 : 4
+Thread 2 : 4
+Thread 1 : 5
+Thread 2 : 5
+All Threads Completed
+--------------------------------------------------------
