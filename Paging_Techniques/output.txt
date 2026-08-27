@@ -1,0 +1,45 @@
+-------------OUTPUT FOR ALL FILES----------------------
+
+----------------------paging.c-------------------------
+Enter Page Size: 10
+Enter Number of Pages: 6
+Enter Frame Numbers for Each Page:
+Page 0 -> Frame: 4
+Page 1 -> Frame: 5
+Page 2 -> Frame: 4
+Page 3 -> Frame: 3
+Page 4 -> Frame: 6
+Page 5 -> Frame: 5
+Enter Logical Address: 4
+
+Page Number : 0
+Offset : 4
+Frame Number : 4
+Physical Address : 44                    
+-------------------------------------------------------
+
+
+----------------------paging.sh------------------------
+Enter Page Size:
+10
+Enter Number of Pages:
+6
+Enter Frame Number for Page 0:
+4
+Enter Frame Number for Page 1:
+5
+Enter Frame Number for Page 2:
+4
+Enter Frame Number for Page 3:
+3
+Enter Frame Number for Page 4:
+6
+Enter Frame Number for Page 5:
+5
+Enter Logical Address:
+4
+Page Number : 0
+Offset : 4
+Frame Number : 4
+Physical Address : 44
+--------------------------------------------------------
